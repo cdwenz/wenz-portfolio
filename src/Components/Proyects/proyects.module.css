@@ -26,9 +26,9 @@
 	position: relative;
 	margin: 0 auto;
 	padding: 1em 0 4em;
-	max-width: 1000px;
 	list-style: none;
 	text-align: center;
+    width: 100%;
 }
 
 /* Common style */
@@ -142,7 +142,7 @@ figure.effectzoe p.description {
 	padding: 2em;
 	color: #fff;
 	text-transform: none;
-	font-size: 90%;
+	font-size: 80%;
 	opacity: 0;
 	-webkit-backface-visibility: hidden; /* Fix for Chrome 37.0.2062.120 (Mac) */
 	-webkit-transition: opacity 0.35s;
