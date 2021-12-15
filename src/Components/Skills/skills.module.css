@@ -1,0 +1,32 @@
+.containerSkill{
+    color:aliceblue;
+    padding: 45px;
+    background-color: #1f3a41;
+}
+
+.skills{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.skillTech ul li{
+    list-style: none;
+}
+
+.skillTech .skills{
+    padding: 15px;
+}
+.softSkills .skills{
+    padding: 15px;
+}
+.icono{
+    margin-bottom: 5px;
+    color: rgb(255, 157, 11);
+}
+.softSkills li{
+    color: rgb(255, 157, 11);
+}
+.softSkills li span{
+    color: aliceblue;
+}

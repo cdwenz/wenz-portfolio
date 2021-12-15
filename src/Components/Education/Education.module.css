@@ -1,0 +1,27 @@
+.Education{
+  background-color: #225a68;
+  color: aliceblue;
+  padding: 45px;
+}
+
+.cardEd {
+  display: flex;
+  flex-direction: row;
+  font-size: small;
+  
+}
+
+img {
+  height: 45px;
+  border-radius: 15%;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.cardEd + .cardEd {
+  margin-top: 10px;
+}
+.detailEd {
+  display: flex;
+  flex-direction: column;
+}
