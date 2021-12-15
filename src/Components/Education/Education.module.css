@@ -1,5 +1,5 @@
 .Education{
-  background-color: #225a68;
+  background-color: #1a5a69;
   color: aliceblue;
   padding: 45px;
 }
@@ -7,6 +7,7 @@
 .containerEducation{
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .cardEd {

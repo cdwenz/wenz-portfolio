@@ -2,7 +2,7 @@
 .containerProyects {
     /* color:aliceblue; */
     padding: 45px;
-    background-color: #3b8a9e;
+    background-color: #358194;
 }
 
 .contentProyects{
@@ -138,11 +138,12 @@ figure.effectzoe:hover p.iconlinks a:focus {
 
 figure.effectzoe p.description {
 	position: absolute;
-	bottom: 8em;
+	bottom: 6em;
 	padding: 2em;
 	color: #fff;
 	text-transform: none;
-	font-size: 80%;
+	font-size: 75%;
+    font-weight: 500;
 	opacity: 0;
 	-webkit-backface-visibility: hidden; /* Fix for Chrome 37.0.2062.120 (Mac) */
 	-webkit-transition: opacity 0.35s;
