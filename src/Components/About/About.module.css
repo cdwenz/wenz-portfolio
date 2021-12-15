@@ -1,12 +1,17 @@
-.About {
-  
+.containerAbout{
+  display: flex;
+  background-color: #305a64;
   height: auto;
   padding: 45px;
+  flex-direction: column;
+}
+
+.About {
   display: flex;
   flex-wrap: wrap;
   /* flex-direction: row; */
   justify-content: space-around;
-  background-color: #305a64;
+  
 }
 
 .datos{
@@ -29,12 +34,13 @@
   /* width: 50vw; */
   height: 50vh;
   margin-left: 5%;
+  margin-right: 5%;
   text-align: justify;
   font-size: small;
   color: rgb(221, 220, 220);
 }
 
-.About h2 {
+.containerAbout h2 {
   color: rgb(221, 220, 220);
 }
 

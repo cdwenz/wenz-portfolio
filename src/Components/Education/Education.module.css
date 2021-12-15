@@ -14,6 +14,7 @@
   flex-direction: row;
   font-size: medium;
   margin-top: 10px;
+  min-width: 400px;
 }
 
 .cardEd img {

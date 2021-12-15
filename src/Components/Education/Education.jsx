@@ -44,7 +44,7 @@ export default function Education(){
                 <img src={logoIcono} alt=""></img>
                 <div className={styles.detailEd}>
                     
-                    <span><b>TECNICO EN REPARACION DE PC Y REDES DE DATOS</b> </span>
+                    <span><b>TEC. REPARACION DE PC Y REDES DE DATOS</b> </span>
                     <span>ICONO | IFES - 2006</span>
                     <span> Curso presencial de 124hs</span>
                     
