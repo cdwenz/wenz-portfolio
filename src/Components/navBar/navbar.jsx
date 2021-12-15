@@ -28,7 +28,7 @@ export default function NavBar() {
     return (
         <nav class="navbar fixed-top navbar-expand-lg navbar-light">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#" style={{color:'#85dbd9'}}><img src={logo}/></a>
+    <a class="navbar-brand" href="#" style={{color:'#85dbd9', height:'45px'}}><img src={logo}/></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -47,7 +47,7 @@ export default function NavBar() {
           <a id="nav4" class="nav-link" style={{color:'white'}} href="#EXPERIENCIA">Experiencia</a>
         </li>
         <li class="nav-item">
-          <a id="nav5" class="nav-link" style={{color:'white'}} href="#">Portfolio</a>
+          <a id="nav5" class="nav-link" style={{color:'white'}} href="#PROYECTOS">Proyectos</a>
         </li>
         <li class="nav-item">
           <a id="nav6" class="nav-link" style={{color:'white'}} href="#CONTACTO">Contacto</a>

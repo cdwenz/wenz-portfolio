@@ -1,0 +1,22 @@
+
+.containerProyects {
+    /* color:aliceblue; */
+    padding: 45px;
+    background-color: #3b8a9e;
+}
+
+.contentProyects{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.title{
+    color:aliceblue;
+}
+
+.cardRoot{
+    max-width: 345px;
+    min-width: 245px;
+    margin: 10px;
+}
+

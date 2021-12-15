@@ -23,7 +23,7 @@
   left: 0;
 }
 
-.header-shadow {
+.headerShadow {
   background-color: rgba(0, 0, 0, 0.61);
   /* backdrop-filter: blur(1px); */
   width: 100%;
@@ -39,23 +39,23 @@
   top: 0;
   left: 0;
 }
-.header-content {
+.headerContent {
   position: absolute;
   top: 23%;
   left: 43%;
   color: white;
   text-align: center;
 }
-.h1-name {
+.h1Name {
   color: #85dbd9;
   font-family: 'Roboto', sans-serif;
 }
-.image {
+.AppImage {
   width: 180px;
   height: 180px;
   border-radius: 100%;
 }
-.App-header {
+.AppHeader {
   position: relative;
   /* max-width: 1000px; */
 }

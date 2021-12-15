@@ -1,5 +1,5 @@
 import logo from './img/circular.jpg';
-import './App.css';
+import styles from './App.module.css';
 import NavBar from './Components/navBar/navbar';
 import About from './Components/About/About';
 import Skills from './Components/Skills/Skills';
@@ -7,6 +7,7 @@ import Education from './Components/Education/Education';
 import Employment from './Components/Employment/Employment';
 import Contact from './Components/Contact/Contact';
 import Textra from 'react-textra';
+import Proyects from './Components/Proyects/Proyects';
 
 const data1 = [
   'Cristian Wenz'
@@ -17,20 +18,21 @@ const data2 = [
 
 function App() {
   return (
-    <div class="ContainerApp">
-      <div class="App-header">
-        <NavBar />
-        <div class="header">
-          <div class="header-shadow"/>
-          <div class="header-content">
-            <img src={logo} class="image" alt="foto" /><br/>
-            <h1 class="h1-name"> Cristian Wenz</h1>
+    <div className={styles.ContainerApp}>
+      <div className={styles.AppHeader}>
+        {/* <NavBar /> */}
+        <div className={styles.header}>
+          <div className={styles.headerShadow}/>
+          <div className={styles.headerContent}>
+            <img src={logo} className={styles.AppImage} alt="foto" /><br/>
+            <h1 className={styles.h1Name}> Cristian Wenz</h1>
             
             <Textra effect='flip' stopDuration={5000} data={data2} />
             {/* <span>Full Stack Developer</span> */}
           </div>
         </div>
         <About />
+        <Proyects />
         <Skills />
         <Education />
         <Employment />
