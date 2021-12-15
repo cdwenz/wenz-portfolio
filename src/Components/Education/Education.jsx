@@ -3,6 +3,7 @@ import logoHenry from '../../img/LogoHenry.jpg';
 import logoSiglo21 from '../../img/siglo21.jpg';
 import logoEpet14 from '../../img/EPET14.jpg';
 import logoIcono from '../../img/icono.jpg';
+import huellitas from '../../img/huellitas.png';
 
 export default function Education(){
     
@@ -51,6 +52,7 @@ export default function Education(){
                 </div>
             </div>
             </div>
+                
         </div>
     )
 }

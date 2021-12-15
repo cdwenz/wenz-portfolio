@@ -17,7 +17,46 @@ export default function Proyects() {
     <div id="PROYECTOS" className={styles.containerProyects}>
       <h2 className={styles.title}>PROYECTOS</h2>
         <div className={styles.contentProyects}>
+        <div className={styles.grid}>
+					<figure className={styles.effectzoe}>
+						<img src={huellitas} alt="img25"/>
+						<figcaption>
+							<h2>Creative <span>Zoe</span></h2>
+							<p className={styles.iconlinks}>
+								<a href="#"><span className={styles.iconheart}></span></a>
+								<a href="#"><span className={styles.iconeye}></span></a>
+								<a href="#"><span className={styles.iconpaperclip}></span></a>
+							</p>
+							<p className={styles.description}>Zoe never had the patience of her sisters. She deliberately punched the bear in his face.</p>
+						</figcaption>			
+					</figure>
+					<figure className={styles.effectzoe}>
+						<img src={PI} alt="img25"/>
+						<figcaption>
+							<h2>Creative <span>Zoe</span></h2>
+							<p className={styles.iconlinks}>
+								<a href="#"><span className={styles.iconheart}></span></a>
+								<a href="#"><span className={styles.iconeye}></span></a>
+								<a href="#"><span className={styles.iconpaperclip}></span></a>
+							</p>
+							<p className={styles.description}>Zoe never had the patience of her sisters. She deliberately punched the bear in his face.</p>
+						</figcaption>			
+					</figure>
+					<figure className={styles.effectzoe}>
+						<img src={weather} alt="img25"/>
+						<figcaption>
+							<h2>Creative <span>Zoe</span></h2>
+							<p className={styles.iconlinks}>
+								<a href="#"><span className={styles.iconheart}></span></a>
+								<a href="#"><span className={styles.iconeye}></span></a>
+								<a href="#"><span className={styles.iconpaperclip}></span></a>
+							</p>
+							<p className={styles.description}>Zoe never had the patience of her sisters. She deliberately punched the bear in his face.</p>
+						</figcaption>			
+					</figure>
+				</div>
 
+{/* 
     <Card className={styles.cardRoot}>
       <CardActionArea>
         <CardMedia
@@ -91,7 +130,7 @@ export default function Proyects() {
         <a href="https://wenz-weather.herokuapp.com/" target="_blank">Visitar sitio</a>
         </Button>
       </CardActions>
-    </Card>
+    </Card> */}
             </div>
     </div>
   );
