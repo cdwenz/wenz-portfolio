@@ -4,11 +4,16 @@
   padding: 45px;
 }
 
+.containerEducation{
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .cardEd {
   display: flex;
   flex-direction: row;
-  font-size: small;
-  
+  font-size: medium;
+  margin-top: 10px;
 }
 
 .cardEd img {
@@ -18,9 +23,6 @@
   margin-left: 15px;
 }
 
-.cardEd + .cardEd {
-  margin-top: 10px;
-}
 .detailEd {
   display: flex;
   flex-direction: column;

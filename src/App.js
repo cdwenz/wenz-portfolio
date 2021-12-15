@@ -34,8 +34,8 @@ function App() {
         <About />
         <Proyects />
         <Skills />
-        <Education />
         <Employment />
+        <Education />
         <Contact />
       </div>
     </div>

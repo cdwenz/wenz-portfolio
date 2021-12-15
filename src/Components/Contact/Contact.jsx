@@ -15,7 +15,7 @@ export default function Contact (){
                 <div class="mb-3">
                     <textarea type="text" name="text" placeholder='Mensaje' class="form-control" required />
                 </div>
-                <button type="submit" class="btn btn-primary">Enviar</button>
+                <button type="submit" class="btn btn-primary form-control">Enviar</button>
             </form>
             
             <span><AiFillLinkedin /> <a href="https://www.linkedin.com/in/cristian-wenz-dev" target="_blank" >Linkedin</a></span>

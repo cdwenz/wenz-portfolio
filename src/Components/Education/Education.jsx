@@ -7,8 +7,9 @@ import logoIcono from '../../img/icono.jpg';
 export default function Education(){
     
     return(
-        <div id="EDUCACION" className={styles.Education}>        
+        <div id="EDUCACION" className={styles.Education}>
             <h2>EDUCACIÓN</h2>
+            <div className={styles.containerEducation}>        
             <div className={styles.cardEd}>
                 <img src={logoHenry} alt=""></img>
                 <div className={styles.detailEd}>
@@ -24,7 +25,8 @@ export default function Education(){
                 <div className={styles.detailEd}>
                     
                     <span><b>LICENCIATURA EN INFORMATICA</b> </span>
-                    <span>SIGLO XXI  -  Cursando </span>
+                    <span>SIGLO XXI  </span>
+                    <span>  Cursando </span>
                     
                 </div>
             </div>
@@ -44,8 +46,10 @@ export default function Education(){
                     
                     <span><b>TECNICO EN REPARACION DE PC Y REDES DE DATOS</b> </span>
                     <span>ICONO | IFES - 2006</span>
+                    <span> Curso presencial de 124hs</span>
                     
                 </div>
+            </div>
             </div>
         </div>
     )

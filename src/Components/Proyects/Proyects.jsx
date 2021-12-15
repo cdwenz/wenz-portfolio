@@ -1,6 +1,7 @@
 import styles from "./proyects.module.css";
-import imagen from "../../img/SanMa.jpg";
-import imagen2 from "../../img/sinfondo.png";
+import huellitas from "../../img/huellitas.png";
+import PI from "../../img/PI.png";
+import weather from "../../img/weather.png";
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
@@ -23,7 +24,7 @@ export default function Proyects() {
             style={{height: "200px"}}
             component="img"
             alt="Contemplative Reptile"
-            image={imagen}
+            image={huellitas}
             title="Contemplative Reptile"
             />
         <CardContent>
@@ -38,10 +39,7 @@ export default function Proyects() {
       </CardActionArea>
       <CardActions>
         <Button size="small" color="primary">
-            Share
-        </Button>
-        <Button size="small" color="primary">
-          Learn More
+            <a href="https://huellitas.vercel.app/home" target="_blank">Visitar sitio</a>
         </Button>
       </CardActions>
     </Card>
@@ -51,7 +49,7 @@ export default function Proyects() {
             style={{height: "200px"}}
             component="img"
             alt="Contemplative Reptile"
-            image={imagen}
+            image={PI}
             title="Contemplative Reptile"
             />
         <CardContent>
@@ -66,10 +64,7 @@ export default function Proyects() {
       </CardActionArea>
       <CardActions>
         <Button size="small" color="primary">
-          Share
-        </Button>
-        <Button size="small" color="primary">
-          Learn More
+            <a href="https://wenz-pi-food.vercel.app/" target="_blank">Visitar sitio</a>
         </Button>
       </CardActions>
     </Card>
@@ -79,7 +74,7 @@ export default function Proyects() {
             style={{height: "200px"}}
             component="img"
             alt="Contemplative Reptile"
-            image={imagen}
+            image={weather}
             title="Contemplative Reptile"
         />
         <CardContent>
@@ -94,10 +89,7 @@ export default function Proyects() {
       </CardActionArea>
       <CardActions>
         <Button size="small" color="primary">
-          Share
-        </Button>
-        <Button size="small" color="primary">
-          Learn More
+        <a href="https://wenz-weather.herokuapp.com/" target="_blank">Visitar sitio</a>
         </Button>
       </CardActions>
     </Card>

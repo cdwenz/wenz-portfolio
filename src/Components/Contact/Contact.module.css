@@ -10,6 +10,25 @@
   color: rgb(61, 61, 61);
 }
 
+.Contact form{
+  width: 90%;
+  max-width: 400px;
+}
+
+.input{
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+.inputBtn{
+  width: 100%;
+  border: 1px solid #ccc;
+  color: rgb(61, 61, 61);
+}
+
 a {
     text-decoration: none;
 }

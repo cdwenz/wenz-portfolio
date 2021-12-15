@@ -64,7 +64,10 @@
   color: #61dafb;
 }
 
-
+.educont{
+  display: flex;
+  flex-direction: row;
+}
 
 
 /* @keyframes App-logo-spin {
