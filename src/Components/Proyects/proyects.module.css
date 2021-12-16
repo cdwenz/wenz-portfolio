@@ -192,6 +192,9 @@ figure.effectzoe:hover p.description {
 }
 
 @media (max-width: 500px) {
+	.containerProyects h2{
+		text-align: -webkit-center;
+	}
 	.grid figure{
 		width: 250px;
 		height: 150px;
