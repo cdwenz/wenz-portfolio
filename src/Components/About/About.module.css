@@ -32,8 +32,10 @@
 .text {
   /* overflow: hidden; */
   /* width: 50vw; */
-  height: 50vh;
-  margin-left: 5%;
+  height: auto;
+  max-width: 80%;
+  margin-bottom: 5%;
+  margin-left: 10%;
   margin-right: 5%;
   text-align: justify;
   font-size: small;

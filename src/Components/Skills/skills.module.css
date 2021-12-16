@@ -10,6 +10,10 @@
     justify-content: space-around;
 }
 
+.skills ul{
+    min-width: 191px;
+}
+
 .skillTech ul li{
     list-style: none;
 }

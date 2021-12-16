@@ -31,13 +31,16 @@
     width: 100%;
 }
 
+
+
+
 /* Common style */
 .grid figure {
 	position: relative;
 	float: left;
 	overflow: hidden;
 	margin: 10px 1%;
-    width: 360px;
+	width: 360px;
     height: 250px;
 	/* width: 48%; */
 	background: #3085a3;
@@ -188,6 +191,27 @@ figure.effectzoe:hover p.description {
 	opacity: 1;
 }
 
+@media (max-width: 500px) {
+	.grid figure{
+		width: 250px;
+		height: 150px;
+	}
+
+	figure.effectzoe figcaption {
+		transform: translate3d(0,0,0);
+	}
+	
+	figure.effectzoe h2,
+	figure.effectzoe p.iconlinks a {
+		-webkit-transition: none;
+		transition: none;
+		-webkit-transform: none;
+		transform: none;
+	}
+	figure.effectzoe:hover p.description {
+		opacity: 0;
+	}
+}
 figure.effectzoe:hover figcaption,
 figure.effectzoe:hover h2,
 figure.effectzoe:hover p.iconlinks a {

@@ -22,10 +22,10 @@
 .card {
     width: 250px;
     height: 250px;
-    background-color: darkgray;
+    background-color: rgb(204, 202, 202) !important;
 }
 .card:hover {
-    background: linear-gradient(to left, darkgrey 50%, white 50%)
+    background: linear-gradient(to left, white 50%, rgb(204, 202, 202) 50%)
        right / 200%;
     transition: background-position 1s ease;
   }

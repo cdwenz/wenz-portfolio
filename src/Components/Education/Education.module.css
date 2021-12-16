@@ -30,3 +30,8 @@
   flex-direction: column;
 }
 
+@media (max-width: 500px) {
+  .cardEd {
+    min-width: 320px;
+  }
+}
