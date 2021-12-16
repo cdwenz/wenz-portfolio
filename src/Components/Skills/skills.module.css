@@ -7,7 +7,7 @@
 .skills{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     
 }
 
@@ -24,6 +24,11 @@
     /* width: -webkit-fill-available; */
     min-width: max-content;
 }
+
+.skillTech{
+    padding-right: 25px;
+}
+
 .softSkills .skills{
     /* padding: 15px; */
     min-width: max-content;

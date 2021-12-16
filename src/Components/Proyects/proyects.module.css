@@ -191,30 +191,6 @@ figure.effectzoe:hover p.description {
 	opacity: 1;
 }
 
-@media (max-width: 500px) {
-	.containerProyects h2{
-		text-align: -webkit-center;
-	}
-	.grid figure{
-		width: 250px;
-		height: 150px;
-	}
-
-	figure.effectzoe figcaption {
-		transform: translate3d(0,0,0);
-	}
-	
-	figure.effectzoe h2,
-	figure.effectzoe p.iconlinks a {
-		-webkit-transition: none;
-		transition: none;
-		-webkit-transform: none;
-		transform: none;
-	}
-	figure.effectzoe:hover p.description {
-		opacity: 0;
-	}
-}
 figure.effectzoe:hover figcaption,
 figure.effectzoe:hover h2,
 figure.effectzoe:hover p.iconlinks a {
@@ -240,4 +216,34 @@ figure.effectzoe:hover p.iconlinks a:nth-child(2) {
 figure.effectzoe:hover p.iconlinks a:first-child {
 	-webkit-transition-delay: 0.2s;
 	transition-delay: 0.2s;
+}
+
+@media (max-width: 500px) {
+	.containerProyects h2{
+		text-align: -webkit-center;
+	}
+
+	.grid {
+		width: min-content;
+	}
+
+	.grid figure{
+		width: 250px;
+		height: 150px;
+	}
+
+	figure.effectzoe figcaption {
+		transform: translate3d(0,0,0);
+	}
+	
+	figure.effectzoe h2,
+	figure.effectzoe p.iconlinks a {
+		-webkit-transition: none;
+		transition: none;
+		-webkit-transform: none;
+		transform: none;
+	}
+	figure.effectzoe:hover p.description {
+		opacity: 0;
+	}
 }
