@@ -9,6 +9,7 @@ import Contact from './Components/Contact/Contact';
 import Textra from 'react-textra';
 import Proyects from './Components/Proyects/Proyects';
 import { Fade } from 'react-awesome-reveal';
+import Footer from './Components/Footer/Footer';
 
 const data1 = [
   'Cristian Wenz'
@@ -44,6 +45,8 @@ function App() {
         <Fade triggerOnce><Education /></Fade>
         
         <Fade triggerOnce><Contact /></Fade>
+
+        <Fade triggerOnce><Footer /></Fade>
         
       </div>
     </div>
