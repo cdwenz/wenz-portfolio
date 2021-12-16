@@ -9,7 +9,7 @@ export default function Skills(){
             <h2>SKILLS</h2>
             <div className={styles.skills}>
                 <div className={styles.skillTech}>
-                    <h2>Tecnologías</h2>
+                    <h3>Tecnologías</h3>
                     <div className={styles.skills}>
                         <ul>
                             <li><SiJavascript className={styles.icono}/> Javascript</li>
@@ -30,7 +30,7 @@ export default function Skills(){
                     </div>
                 </div>
                 <div className={styles.softSkills}>
-                    <h2>Habilidades</h2>
+                    <h3>Habilidades</h3>
                     <div className={styles.skills}>
                     <ul>
                         <li><span>Curiosidad</span></li>

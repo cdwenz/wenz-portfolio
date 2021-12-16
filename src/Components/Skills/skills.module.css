@@ -7,7 +7,7 @@
 .skills{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     
 }
 
@@ -37,4 +37,11 @@
 }
 .softSkills li span{
     color: aliceblue;
+}
+
+@media (max-width: 500px) {
+	.containerSkill h2 {
+    text-align: -webkit-center;
+    margin-bottom: 10px;
+  }
 }

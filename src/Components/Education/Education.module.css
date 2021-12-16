@@ -34,4 +34,7 @@
   .cardEd {
     min-width: 320px;
   }
+  .Education h2{
+    text-align: -webkit-center;
+  }
 }
