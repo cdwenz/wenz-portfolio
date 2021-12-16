@@ -8,6 +8,7 @@ import Employment from './Components/Employment/Employment';
 import Contact from './Components/Contact/Contact';
 import Textra from 'react-textra';
 import Proyects from './Components/Proyects/Proyects';
+import { Fade } from 'react-awesome-reveal';
 
 const data1 = [
   'Cristian Wenz'
@@ -31,12 +32,19 @@ function App() {
             {/* <span>Full Stack Developer</span> */}
           </div>
         </div>
-        <About />
-        <Proyects />
-        <Skills />
-        <Employment />
-        <Education />
-        <Contact />
+        <Fade triggerOnce>
+          <About />
+        </Fade>
+        <Fade triggerOnce><Proyects /></Fade>
+        
+        <Fade triggerOnce><Skills /></Fade>
+        
+        <Fade triggerOnce><Employment /></Fade>
+        
+        <Fade triggerOnce><Education /></Fade>
+        
+        <Fade triggerOnce><Contact /></Fade>
+        
       </div>
     </div>
   );

@@ -6,6 +6,7 @@ import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
+import uno from '../../img/1.png';
 
 const bull = (
     <Box
@@ -98,16 +99,7 @@ export default function Employment() {
                     </Card>
                     </div>
                 </div>
-            </div>
-            <div className={styles.cardExp}>
-                <img src={""} alt=""></img>
-                <div className={styles.detailEd}>
-                    
-                    <span><b> </b></span>
-                    <span></span>
-                    <span></span>
                 
-                </div>
             </div>
         </div>
  )

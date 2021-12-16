@@ -22,6 +22,7 @@
 .card {
     width: 250px;
     height: 250px;
+    background-color: darkgray;
 }
 .card:hover {
     background: linear-gradient(to left, darkgrey 50%, white 50%)
