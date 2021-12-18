@@ -1,6 +1,8 @@
 import styles from './About.module.css';
 import photo from '../../img/photo.jpg'; 
 import CV from '../../img/CV-CristianWenz.pdf';
+import Button from '@mui/material/Button';
+import DownloadIcon from '@mui/icons-material/Download';
 
 export default function About(){
     return (
@@ -15,15 +17,19 @@ export default function About(){
                     <p/>
                     <div>
                         <div className={styles.datos}>
-                            <ul>
-                                <li><b>Nombre:</b> Cristian Wenz</li>
-                                <li><b>Titulo:</b> Full Stack Web Developer</li>
-                                <li><b>Disponibilidad:</b> Inmediata</li>
-                                <li><b>Preferencia:</b> Remoto</li>
-                            </ul>
-                            <a href={CV} download="CV-CristianWenz.pdf">
-                                <button>Download File</button>
-                            </a>
+                            <div>
+                                <ul>
+                                    <li><b>Nombre:</b> Cristian Wenz</li>
+                                    <li><b>Titulo:</b> Full Stack Web Developer</li>
+                                    <li><b>Disponibilidad:</b> Inmediata</li>
+                                    <li><b>Preferencia:</b> Remoto</li>
+                                </ul>
+                            </div>
+                            <div>
+                                    <a href={CV} download="CV-CristianWenz.pdf"><span>Download</span><span>PDF</span></a>
+                                    
+                            </div>
+                            
                         </div>
                     </div>
                 </div>
