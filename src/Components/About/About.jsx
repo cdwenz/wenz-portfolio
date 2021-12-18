@@ -1,5 +1,6 @@
 import styles from './About.module.css';
 import photo from '../../img/photo.jpg'; 
+import CV from '../../img/CV-CristianWenz.pdf';
 
 export default function About(){
     return (
@@ -20,6 +21,9 @@ export default function About(){
                                 <li><b>Disponibilidad:</b> Inmediata</li>
                                 <li><b>Preferencia:</b> Remoto</li>
                             </ul>
+                            <a href={CV} download="CV-CristianWenz.pdf">
+                                <button>Download File</button>
+                            </a>
                         </div>
                     </div>
                 </div>
