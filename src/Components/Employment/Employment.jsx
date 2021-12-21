@@ -7,6 +7,7 @@ import CardContent from '@mui/material/CardContent';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import uno from '../../img/1.png';
+import { Fade } from 'react-awesome-reveal';
 
 const bull = (
     <Box
@@ -24,6 +25,7 @@ export default function Employment() {
             <div className={styles.cardExp}>
                 <img src={""} alt=""></img>
                 <div className={styles.detailEd}>
+                    <Fade triggerOnce>
                     <div >
                     <Card className={styles.card} sx={{ minWidth: 275 }}>
                     <CardContent>
@@ -42,6 +44,8 @@ export default function Employment() {
                     </CardContent>
                     </Card> 
                     </div>
+                    </Fade>
+                    <Fade triggerOnce>
                     <div>
                     <Card className={styles.card} sx={{ minWidth: 275 }}>
                     <CardContent>
@@ -61,6 +65,8 @@ export default function Employment() {
                     </CardContent>
                     </Card> 
                     </div>
+                    </Fade>
+                    <Fade triggerOnce>
                     <div>
                     <Card className={styles.card} sx={{ minWidth: 275 }}> 
                     <CardContent>
@@ -80,6 +86,8 @@ export default function Employment() {
                     </CardContent>
                     </Card>
                     </div>
+                    </Fade>
+                    <Fade triggerOnce>
                     <div>
                     <Card className={styles.card} sx={{ minWidth: 275 }}> 
                     <CardContent>
@@ -98,6 +106,7 @@ export default function Employment() {
                     </CardContent>
                     </Card>
                     </div>
+                    </Fade>
                 </div>
                 
             </div>
