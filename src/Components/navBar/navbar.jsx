@@ -42,7 +42,6 @@ const Navbar = () => {
           <LogoContainer>
             <FaWeebly />
             <span>Portfolio.</span>
-            {/* <p>F(X)</p> */}
           </LogoContainer>
 
           <MobileIcon onClick={() => setShowMobileMenu(!showMobileMenu)}>

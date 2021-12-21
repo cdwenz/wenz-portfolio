@@ -42,14 +42,14 @@ export default function Proyects() {
 						</a>
 					</div>
 					<div>
-						<a href="https://wenz-weather.herokuapp.com/"  target="_blank">
+						<a href="https://wenz-weather.vercel.app/"  target="_blank">
 							<figure className={styles.effectzoe}>
 								<img src={weather} alt="img25"/>
 								<figcaption>
 									<h2>Weather <span>APP</span></h2>
 									<p className={styles.iconlinks}>
 										<a href="https://github.com/cdwenz/Wenz-Weather"  target="_blank"><AiFillGithub /></a>
-										<a href="https://wenz-weather.herokuapp.com/" target="_blank"><IoGlobe /></a>
+										<a href="https://wenz-weather.vercel.app/" target="_blank"><IoGlobe /></a>
 									</p>
 									<p className={styles.description}>App para visualizar clima en tiempo real. <br/> Javascript | React | HTML/CSS | API externa</p>
 								</figcaption>			
