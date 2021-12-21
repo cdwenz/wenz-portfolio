@@ -27,7 +27,7 @@ export default function Proyects() {
 						</a>
 					</div>
 					<div>
-						<a href="https://github.com/cdwenz/PI-food" target="_blank">
+						<a href="https://wenz-pi-food.vercel.app/" target="_blank">
 							<figure className={styles.effectzoe}>
 								<img src={PI} alt="img25"/>
 								<figcaption>
@@ -42,7 +42,7 @@ export default function Proyects() {
 						</a>
 					</div>
 					<div>
-						<a href="https://github.com/cdwenz/Wenz-Weather"  target="_blank">
+						<a href="https://wenz-weather.herokuapp.com/"  target="_blank">
 							<figure className={styles.effectzoe}>
 								<img src={weather} alt="img25"/>
 								<figcaption>
