@@ -102,7 +102,7 @@ const Navbar = () => {
               <MenuItemLink href="#CONTACTO" onClick={() => setShowMobileMenu(!showMobileMenu)}>
                 <div>
                   <AiOutlineMail />
-                  CONTACT ME
+                  CONTACTO
                 </div>
               </MenuItemLink>
             </MenuItem>
