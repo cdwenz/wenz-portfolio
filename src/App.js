@@ -20,19 +20,20 @@ const data2 = [
 
 function App() {
   return (
-    <div className={styles.ContainerApp}>
-      <div className={styles.AppHeader}>
-        {/* <NavBar /> */}
+    <>
         <div className={styles.header}>
+        <NavBar />
           <div className={styles.headerShadow}/>
           <div className={styles.headerContent}>
             <img src={logo} className={styles.AppImage} alt="foto" /><br/>
             <h1 className={styles.h1Name}> Cristian Wenz</h1>
             
             <Textra effect='flip' stopDuration={5000} data={data2} />
-            {/* <span>Full Stack Developer</span> */}
+            
           </div>
         </div>
+    <div className={styles.ContainerApp}>
+      <div className={styles.AppHeader}>
         <Fade triggerOnce>
           <About />
         </Fade>
@@ -50,6 +51,7 @@ function App() {
         
       </div>
     </div>
+    </>
   );
 }
 
