@@ -11,7 +11,7 @@ export default function About(){
                 <div className={styles.About}>
             <div className={styles.section}>
                 <div className={styles.text}><p/>
-                    <span>Soy un apasionado de la tecnología y de su aplicación para superar desafíos ayudando a otras personas a simplificar su vida. Es por eso que uniendo mis bases en electrónica, experiencia en redes y  helpdesk, sumado al mundo de la programación, hacen de mi trabajo, un placer.
+                    <span>Soy un apasionado de la tecnología y de su aplicación para superar desafíos ayudando a otras personas a simplificar su vida. Es por eso que uniendo mis bases en electrónica, experiencia en redes y helpdesk, sumado al mundo de la programación, hacen de mi trabajo, un placer.
                         Soy observador, con gran capacidad de resolución de problemas y siempre dispuesto a aprender. Con experiencia en trabajo en equipo, liderando y acompañando.
                     </span>
                     <p/>
